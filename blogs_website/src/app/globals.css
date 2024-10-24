@@ -1,0 +1,339 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color:#926c0b;
+  color: bisque;
+  width: 100%;
+  height: 5vw;
+  padding:.3vw 1.5vw;
+  font-size: 3vw;
+  position: relative;
+}
+.header ul h1{
+  margin-right: 20%;
+  margin-left: 10%;
+  font-size: 2vw; 
+  font-weight: bold;
+  color: #afc76f;
+
+  }
+.header ul span{
+  font-size:2.5vw;
+  font-weight: bold;
+}
+
+.header-buttons{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.5vw;
+display: flex;
+justify-content: right;
+gap: 50px;
+margin-right: 80px;
+padding-top:7px ;
+align-items: center;
+}
+
+footer{
+background-color:#926c0b;
+color: bisque;
+height: 5vw;
+}
+
+.pagedes span{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(9, 88, 58);
+
+}
+.pagedes{
+  margin-top: 70px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(9, 88, 58);
+  font-weight: bold;
+}
+
+
+.button{
+  background-color:rgb(146, 108, 11);
+  height: 30px;
+  width: 130px;
+  border-radius: 20px;
+  color:  bisque;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  padding: 2px;
+  transition: 0.3s;
+  display: center;
+  margin-top: 40px;
+  
+}
+.button:hover{background-color: rgb(84, 134, 106);}
+
+
+.aboutDiv h1{
+  padding: 5px;
+  font-size: 2rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(9, 88, 58);
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.aboutDiv{
+  display: flex;
+  flex-direction:row-reverse;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh -  10vh);
+  width: 100%;
+  gap: 20px;
+  padding: 60px;
+  border: 3px solid rgb(173, 197, 126 );
+  border-radius: 10px;
+  background-color:#afc76f;
+  color: rgb(9, 88, 58);
+  text-shadow:green;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.aboutDiv p{
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.icones{
+  display: flex;
+  justify-content: space-between;
+  gap: 23px;
+  margin-bottom: 20px;
+
+}
+
+
+body{
+
+  font-family: Arial, Helvetica, sans-serif;
+  height: calc(100vh -  10vh);
+  background-color:#afc76f;
+}
+.parentContainer {
+  padding: 20px; 
+  color: rgb(9, 88, 58);
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  position: relative;
+}
+
+.childContainer {
+  width: 400px;
+  height: 430px;
+  background-color:rgb(153, 196, 153);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 15px;
+  transition-duration: 0.15s;
+  border: 3px solid green;
+}
+
+.childContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: rgba(241, 234, 234, 0.2) 0px 2px 8px 0px;
+  align-items: center;
+}
+
+.title {
+  margin-top: 2px;
+  color: rgb(9, 88, 58);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.description {
+  font-size: 16px;
+  font-style: inherit;
+  margin-bottom: 3px;
+  color: rgb(9, 88, 58);
+  font-weight: bold;
+  text-align: center;
+}
+
+.readMore {
+  width: 80%;
+  background-color:rgb(9, 88, 58);;
+  border: 2px solid rgb(153, 196, 153);
+  font-size: 15px;
+  color: rgb(153, 196, 153);
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  font: weight 20px;
+  margin-left: 9.5%;
+}
+
+.readMore:hover {
+  border: 1px solid rgb(209, 159, 255);
+  color: rgb(209, 159, 255);
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  min-height: 130vh;
+  background-color:#afc76f;
+}
+
+form{
+  max-width: 600px;
+  width: 100%;
+  background-color: rgb(9, 88, 58);
+  padding: 25px 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px,olivedrab(0 ,0 ,0, .1);
+  color: #afc76f;
+  margin: 20px;  
+  }
+  form h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+  form .input-box{
+    margin-top: 20px;
+
+  }
+  .input-box .field{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid  #afc76f;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: #afc76f;
+    margin-top: 8px;
+  }
+  .input-box .field:focus{
+    border: 2px solid #c9e4ca;
+
+  }
+  .input-box  .field-mess{
+    height: 150px;
+    resize: none;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid  #afc76f;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: #afc76f;
+    margin-top: 8px;
+  }
+  
+  form button{
+    width: 100%;
+    height: 55px;
+    background-color:#afc76f;
+    color:rgb(9, 88, 58);
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    box-shadow: #afc76f;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  form button:hover{
+    background-color: #c9e4ca;
+  }
+
+
+
+
+@media only screen and (max-width: 599px) {
+  .childContainer {
+    width: 60%;
+  }
+  .header-buttons{
+    width: 60%;
+    font-size: 4vw; 
+  }
+  .header li h1{
+    font-size: 4vw;
+     }
+     .header li span {
+      font-size: 3vw;
+
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .childContainer {
+    width: 90%;
+  }
+  .header-buttons li{
+    display:none;
+  }
+}
+
+.scale-up-hor-left {
+	-webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2024-10-23 20:24:16
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-up-hor-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+  }
+}
