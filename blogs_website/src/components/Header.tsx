@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Header(){
     return (
+        <header>
         <div className="header">
-            
             <ul className="header-buttons"> 
             <span> @ Blogs </span> <h1>Graphic Design</h1>  
                 <li><Link href="/">Home</Link></li>
@@ -14,6 +14,6 @@ export default function Header(){
             
             </ul>
         </div>
-
+        </header>
     );       
 }

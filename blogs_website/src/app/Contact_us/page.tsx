@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Contact_us(){
     return (
         <div>
-        <section className="contact">
+        <section className="contact ">
         <form>
             <h2>Contact Form</h2>
             <div className="input-box">
