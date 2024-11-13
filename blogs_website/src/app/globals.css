@@ -278,7 +278,7 @@ form{
 
 
 
-@media only screen and (max-width: 973px) {
+@media only screen and (max-width: 973px)  {
   
   .header-buttons li{
     display:none;
